@@ -24,3 +24,5 @@ articulos.forEach(function (articulo) {
 var articulosBaratos = articulos.some(function (articulo) {
   return articulo.costo <= 700;
 });
+
+// para borrar, usamos los mismos compandos que ya vimos al inicio de los arrays
